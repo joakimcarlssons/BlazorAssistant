@@ -4,6 +4,10 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Title>BlazorAssistant.Storage</Title>
+    <Description>Package helping out with storage in Blazor applications.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/joakimcarlssons/BlazorAssistant/tree/master/BlazorAssistant/BlazorAssistant.Storage</RepositoryUrl>
   </PropertyGroup>
 
 
