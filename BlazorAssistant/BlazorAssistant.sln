@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAssistant.Shared", "BlazorAssistant.Shared\BlazorAssistant.Shared.csproj", "{980E53E9-73C9-424E-A635-2EBA0124C674}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAssistant.Client.WA", "BlazorAssistant.Client.WA\BlazorAssistant.Client.WA.csproj", "{D01ADA13-29E1-42DA-9EEA-F6859587DAE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAssistant", "BlazorAssistant\BlazorAssistant.csproj", "{5CE664A0-97B9-4BB6-998D-1439CC9D7B8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAssistant.Storage", "BlazorAssistant.Storage\BlazorAssistant.Storage.csproj", "{69231AB9-4149-4B13-9E81-E470A135306F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAssistant.TailwindCSS", "BlazorAssistant.TailwindCSS\BlazorAssistant.TailwindCSS.csproj", "{E859BD25-BB70-4720-B53C-0DF3D6F80C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAssistant.StateManagement", "BlazorAssistant.StateManagement\BlazorAssistant.StateManagement.csproj", "{7E77B0E6-4AFE-4F28-8DEE-FC643A0BA23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAssistant.Tests", "BlazorAssistant.Tests\BlazorAssistant.Tests.csproj", "{F39422BA-3B99-424D-B97F-841D848F9AA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{980E53E9-73C9-424E-A635-2EBA0124C674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980E53E9-73C9-424E-A635-2EBA0124C674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980E53E9-73C9-424E-A635-2EBA0124C674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980E53E9-73C9-424E-A635-2EBA0124C674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01ADA13-29E1-42DA-9EEA-F6859587DAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01ADA13-29E1-42DA-9EEA-F6859587DAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01ADA13-29E1-42DA-9EEA-F6859587DAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01ADA13-29E1-42DA-9EEA-F6859587DAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE664A0-97B9-4BB6-998D-1439CC9D7B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE664A0-97B9-4BB6-998D-1439CC9D7B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE664A0-97B9-4BB6-998D-1439CC9D7B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE664A0-97B9-4BB6-998D-1439CC9D7B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69231AB9-4149-4B13-9E81-E470A135306F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69231AB9-4149-4B13-9E81-E470A135306F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69231AB9-4149-4B13-9E81-E470A135306F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69231AB9-4149-4B13-9E81-E470A135306F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E859BD25-BB70-4720-B53C-0DF3D6F80C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E859BD25-BB70-4720-B53C-0DF3D6F80C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E859BD25-BB70-4720-B53C-0DF3D6F80C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E859BD25-BB70-4720-B53C-0DF3D6F80C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E77B0E6-4AFE-4F28-8DEE-FC643A0BA23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E77B0E6-4AFE-4F28-8DEE-FC643A0BA23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E77B0E6-4AFE-4F28-8DEE-FC643A0BA23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E77B0E6-4AFE-4F28-8DEE-FC643A0BA23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39422BA-3B99-424D-B97F-841D848F9AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39422BA-3B99-424D-B97F-841D848F9AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39422BA-3B99-424D-B97F-841D848F9AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39422BA-3B99-424D-B97F-841D848F9AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8B77F92-F6CF-435F-8317-5AB6B1054B41}
+	EndGlobalSection
+EndGlobal

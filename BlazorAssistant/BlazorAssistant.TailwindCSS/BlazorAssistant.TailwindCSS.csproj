@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <NpmLastInstall>node_modules/./last-install</NpmLastInstall>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Styles\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+	<Target Name="CheckNPMIsInstalled" BeforeTargets="InstallNPM">
+		<Exec Command="npm -v" ContinueOnError="true">
+			<Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+		</Exec>
+
+		<Error Condition="'$(ErrorCode)' != '0'" Text="You must install NPM to run this task" />
+	</Target>
+	
+	<Target Name="InstallNPM" BeforeTargets="BuildTailwindCSS">
+		<Exec Command="npm install" />
+		<Touch Files="$(NPMLastInstall)" AlwaysCreate="true" />
+	</Target>
+
+	<Target Name="BuildTailwindCSS" BeforeTargets="Compile">
+		<Exec Command="npm run buildcss" />
+	</Target>
+
+</Project>
